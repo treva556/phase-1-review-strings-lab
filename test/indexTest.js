@@ -21,7 +21,7 @@ describe('index.js', () => {
   });
 
   describe('excitedWelcomeMessage', () => {
-    it('contains "WELCOME TO FLATBOOK, "', () => {
+    it('contains "excitedWelcomeMessage, "', () => {
       expect(excitedWelcomeMessage).to.have.string('WELCOME TO FLATBOOK, ');
     });
 
